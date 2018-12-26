@@ -17,8 +17,11 @@ There's only 1 command you'll need to know how to use, `load_repl`.
 
 **name**: The name of the repl.it user you're installing from (eg.
 [https://repl.it/@**21natzil**/Permissions](https://repl.it/@21natzil/Permissions))
+
 **project**: The name of the repl you're installing (eg. [https://repl.it/@21natzil/**Permissions**]((https://repl.it/@21natzil/Permissions)))
+
 **force_reinstall**: If True, rimp will install the repl again, even if it's already downloaded
+
 **verbose**: If False, it will *not* print anything to stdout with installation information
 
 It's advised you checkout the `test.py` file for examples of this being used. ***PLEASE NOTE***, you can only import
